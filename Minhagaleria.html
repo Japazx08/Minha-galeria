@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos e Poesias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            margin: 20px;
+        }
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .poetry {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .poetry p {
+            font-style: italic;
+            font-size: 1.2em;
+            color: #555;
+        }
+        .audio-player {
+            margin-top: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4a4a4a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Galeria de Fotos e Poesias</h1>
+</header>
+
+<main>
+
+    <!-- Primeira Foto -->
+    <section class="photo">
+        <img src="IMG.fotografia1.jpg" alt="Fotografia 1">
+        <div class="poetry">
+            <p>Ferida</p>
+            <p>"Não sou poeta, mas vivo numa poesia,<br>
+            E com certeza não é uma bonitinha,<br>
+            E sim uma melancolia,<br>
+            Sinto falta da época que eu sorria,<br>
+            Do tempo que me divertia...<br><br>
+            Os anos passam e a mente continua aflita,<br>
+            Acho que é por quê não tratei aquela ferida,<br>
+            Hoje ela está em carne viva, sensível e aberta,<br>
+            Se eu puzer um band-aid será que ela se fecha?"</p>
+        </div>
+    </section>
+
+    <!-- Música -->
+    <section class="audio-player">
+        <audio controls>
+            <source src="musica1.mp3" type="audio/mp3">
+            Seu navegador não suporta o formato de áudio.
+        </audio>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
